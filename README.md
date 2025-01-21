@@ -5,15 +5,15 @@ This project is a multi-service application that demonstrates the integration of
 
 ## Key Features
 
-1. Web Service: Built using ASP.NET Core with Entity Framework Core for database interactions.
+1. **Web Service:** Built using ASP.NET Core with Entity Framework Core for database interactions.
 
-2. Database Service: PostgreSQL used as the relational database.
+2. **Database Service:** PostgreSQL used as the relational database.
 
-3. Cache Service: Redis used for caching.
+3. **Cache Service:** Redis used for caching.
 
-4. Dockerized Environment: All services run in isolated containers.
+4. **Dockerized Environment:** All services run in isolated containers.
 
-5. Data Management: Database migrations and data seeding handled via Entity Framework Core.
+5. **Data Management:** Database migrations and data seeding handled via Entity Framework Core.
 
 ## Prerequisites
 
@@ -23,17 +23,17 @@ This project is a multi-service application that demonstrates the integration of
 
 ## Setup Instructions
 
-1. Clone the Repository
+1. **Clone the Repository**
 
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/shubhamgupta3025/Docker_Assignment-1.git
 
-2. Build and Run the Application
+2. **Build and Run the Application**
+
     Use Docker Compose to build and start all services in detached mode.
 
     docker-compose up -d
 
-3. Access the Services
+3. **Access the Services**
 
     Web Service: Accessible at http://localhost:5000. <br>
     PostgreSQL Database: Accessible on port 5432 (credentials configured in docker-compose.yml).<br>
