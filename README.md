@@ -26,6 +26,7 @@ This project is a multi-service application that demonstrates the integration of
 1. **Clone the Repository**
 
     git clone https://github.com/shubhamgupta3025/Docker_Assignment-1.git
+    
     **Docker Image -** shubhamgupta3025/webapp
 
 2. **Build and Run the Application**
